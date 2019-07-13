@@ -18,15 +18,18 @@ How to run the app:
 1. Create a file named ``.env`` and inside, paste and modify: ```SPOTIFY_ID= {spotify_ID}
 SPOTIFY_SECRET= {spotify_secret}```
 1. Type in ``node liri.js {command name}``
-   * Working commands are: 
+   * Working commands are:
       * ``concert-this {artist/band name}``: gets the artist/band venues
       * ``spotify-this-song {song name}``: searches spotify for the given song
       * ``movie-this {movie name}``: gets data about the given movie
-      
       * ``do-what-it-says``: takes information from the file ``random.txt`` in the format ``{command},"{parameter}"``
 
 ## Screenshots
 
+![concert-this](./images/concert-this.png)
+![spotify-this-song](./images/spotify-this-song.png)
+![movie-this](./images/movie-this.png)
+![do-what-it-says](./images/do-what-it-says.png)
 
 ## Technologies
 
